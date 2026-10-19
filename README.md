@@ -101,7 +101,7 @@ The hash should match the line for `OrionSetup.exe` in `SHA256SUMS.txt`.
 - **Something not working?** Open **Settings, About, CHECK MY SETUP**. It tests the voice, hearing, wake word, AI and microphone in one go. **COPY REPORT** gives you a text to send along; it contains no personal data.
 - **Shortcuts:** `Ctrl+Shift+O` shows or hides Orion, `Ctrl+Shift+C` copies his last reply.
 - **Language:** Orion understands and speaks English.
-- **Uninstalling:** Windows Settings, Apps, Orion. This removes Orion and his data, and **also removes Ollama and every downloaded AI model**, including Ollama models you added yourself.
+- **Uninstalling:** Windows Settings, Apps, Orion. This removes Orion and his data, then asks whether to remove **Ollama and its AI models** too. If Orion installed Ollama, Yes is preselected; if you had Ollama already, No is, so other apps that use it keep working. Versions up to 1.19.0 remove Ollama and its models without asking, so update Orion before uninstalling.
 
 ---
 
